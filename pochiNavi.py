@@ -109,5 +109,4 @@ except Exception as e:
 
 finally:
     if driver:
-        driver.quit()
         print(f"[INFO] {txt[9]}")
