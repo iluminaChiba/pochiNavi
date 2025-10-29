@@ -20,7 +20,7 @@ MESSAGES = {
     'timeout_error': "タイムアウトが発生しました",
     'element_not_found': "必要な要素が見つかりません",
     'unexpected_error': "予期せぬエラーが発生しました",
-    'browser_closed': "ブラウザを閉じました。"
+    'browser_closed': "スクリプトを終了します。ブラウザは開いたまま残ります。"
 }
 
 
@@ -69,6 +69,7 @@ try:
     if len(my_keys) != len(el_ids):
         raise ValueError(txt[2])
 
+    options.add_experimental_option("detach", True)  # スクリプト終了後もブラウザを開いたままにする呪文
     driver = webdriver.Chrome(service=service, options=options)
     driver.get(URL)
 
