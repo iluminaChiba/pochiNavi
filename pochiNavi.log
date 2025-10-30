@@ -106,3 +106,293 @@ Stacktrace:
 2025-10-30 14:14:50 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\141.0.7390.122\chromedriver-win32/chromedriver.exe
 2025-10-30 14:14:53 - INFO: ログインに成功しました。
 2025-10-30 14:14:53 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2025-10-30 14:27:33 - INFO: --- 起動 ---
+2025-10-30 14:27:33 - INFO: ChromeDriverの確認を開始...
+2025-10-30 14:27:36 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\141.0.7390.122\chromedriver-win32/chromedriver.exe
+2025-10-30 14:27:46 - ERROR: 予期せぬエラーが発生しました: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.125)
+Stacktrace:
+	GetHandleVerifier [0x0xadfe43+66515]
+	GetHandleVerifier [0x0xadfe84+66580]
+	(No symbol) [0x0x8cdc48]
+	(No symbol) [0x0x8ac18d]
+	(No symbol) [0x0x941a4e]
+	(No symbol) [0x0x95c4d9]
+	(No symbol) [0x0x93afc6]
+	(No symbol) [0x0x90c2ca]
+	(No symbol) [0x0x90d154]
+	GetHandleVerifier [0x0xd37353+2521315]
+	GetHandleVerifier [0x0xd322d3+2500707]
+	GetHandleVerifier [0x0xb07c94+229924]
+	GetHandleVerifier [0x0xaf81f8+165768]
+	GetHandleVerifier [0x0xafecad+193085]
+	GetHandleVerifier [0x0xae8158+100072]
+	GetHandleVerifier [0x0xae82f0+100480]
+	GetHandleVerifier [0x0xad25aa+11066]
+	BaseThreadInitThunk [0x0x76435d49+25]
+	RtlInitializeExceptionChain [0x0x779cd6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x779cd661+561]
+
+2025-10-30 14:27:46 - ERROR: Unexpected error trace:
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\pochiNavi\pochiNavi.py", line 168, in <module>
+    wait.until(EC.presence_of_all_elements_located((By.ID, "send")))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py", line 129, in until
+    value = method(self._driver)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 297, in _predicate
+    return driver.find_elements(*locator)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 967, in find_elements
+    return self.execute(Command.FIND_ELEMENTS, {"using": by, "value": value})["value"] or []
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 233, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.125)
+Stacktrace:
+	GetHandleVerifier [0x0xadfe43+66515]
+	GetHandleVerifier [0x0xadfe84+66580]
+	(No symbol) [0x0x8cdc48]
+	(No symbol) [0x0x8ac18d]
+	(No symbol) [0x0x941a4e]
+	(No symbol) [0x0x95c4d9]
+	(No symbol) [0x0x93afc6]
+	(No symbol) [0x0x90c2ca]
+	(No symbol) [0x0x90d154]
+	GetHandleVerifier [0x0xd37353+2521315]
+	GetHandleVerifier [0x0xd322d3+2500707]
+	GetHandleVerifier [0x0xb07c94+229924]
+	GetHandleVerifier [0x0xaf81f8+165768]
+	GetHandleVerifier [0x0xafecad+193085]
+	GetHandleVerifier [0x0xae8158+100072]
+	GetHandleVerifier [0x0xae82f0+100480]
+	GetHandleVerifier [0x0xad25aa+11066]
+	BaseThreadInitThunk [0x0x76435d49+25]
+	RtlInitializeExceptionChain [0x0x779cd6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x779cd661+561]
+
+2025-10-30 14:27:46 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2025-10-30 14:28:33 - INFO: --- 起動 ---
+2025-10-30 14:28:33 - INFO: ChromeDriverの確認を開始...
+2025-10-30 14:28:36 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\141.0.7390.122\chromedriver-win32/chromedriver.exe
+2025-10-30 14:28:55 - ERROR: ログイン後のページ遷移を確認できませんでした。
+2025-10-30 14:28:55 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2025-10-30 14:30:01 - INFO: --- 起動 ---
+2025-10-30 14:30:01 - INFO: ChromeDriverの確認を開始...
+2025-10-30 14:30:04 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\141.0.7390.122\chromedriver-win32/chromedriver.exe
+2025-10-30 14:30:23 - ERROR: ログイン後のページ遷移を確認できませんでした。
+2025-10-30 14:30:23 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2025-10-30 14:33:00 - INFO: --- 起動 ---
+2025-10-30 14:33:00 - INFO: ChromeDriverの確認を開始...
+2025-10-30 14:33:03 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\141.0.7390.122\chromedriver-win32/chromedriver.exe
+2025-10-30 14:33:21 - ERROR: ログイン後のページ遷移を確認できませんでした。
+2025-10-30 14:33:21 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2025-10-30 14:35:06 - INFO: --- 起動 ---
+2025-10-30 14:35:06 - INFO: ChromeDriverの確認を開始...
+2025-10-30 14:35:09 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\141.0.7390.122\chromedriver-win32/chromedriver.exe
+2025-10-30 14:35:12 - INFO: フィールド key1 への入力を開始
+2025-10-30 14:35:12 - INFO: フィールド key1 への入力完了: 111
+2025-10-30 14:35:12 - INFO: フィールド key2 への入力を開始
+2025-10-30 14:35:12 - INFO: フィールド key2 への入力完了: 222
+2025-10-30 14:35:12 - INFO: フィールド key3 への入力を開始
+2025-10-30 14:35:12 - INFO: フィールド key3 への入力完了: 333
+2025-10-30 14:35:12 - INFO: ログインボタンを検索中...
+2025-10-30 14:35:12 - INFO: ログインボタンが見つかりました
+2025-10-30 14:35:13 - INFO: ログインボタンをクリック中...
+2025-10-30 14:35:13 - INFO: ログインボタンのクリック完了
+2025-10-30 14:35:13 - INFO: ログイン処理後のページ遷移を確認中...
+2025-10-30 14:35:29 - ERROR: ログイン後のページ遷移を確認できませんでした。 - 現在のURL: https://pochipass.com/member001.php
+2025-10-30 14:35:29 - INFO: 現在のページタイトル: メンバーページ｜ポチパス
+2025-10-30 14:35:29 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2025-10-30 14:39:16 - INFO: --- 起動 ---
+2025-10-30 14:39:16 - INFO: ChromeDriverの確認を開始...
+2025-10-30 14:39:19 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\141.0.7390.122\chromedriver-win32/chromedriver.exe
+2025-10-30 14:39:21 - INFO: フィールド key1 への入力を開始
+2025-10-30 14:39:22 - INFO: フィールド key1 への入力完了: 111
+2025-10-30 14:39:22 - INFO: フィールド key2 への入力を開始
+2025-10-30 14:39:22 - INFO: フィールド key2 への入力完了: 222
+2025-10-30 14:39:22 - INFO: フィールド key3 への入力を開始
+2025-10-30 14:39:22 - INFO: フィールド key3 への入力完了: 333
+2025-10-30 14:39:22 - INFO: ログインボタンを検索中...
+2025-10-30 14:39:22 - INFO: ログインボタンが見つかりました
+2025-10-30 14:39:23 - INFO: ログインボタンをクリック中（通常クリック）...
+2025-10-30 14:39:23 - INFO: JavaScriptでの追加クリックを実行...
+2025-10-30 14:39:23 - ERROR: 予期せぬエラーが発生しました: Message: stale element reference: stale element not found
+  (Session info: chrome=141.0.7390.125); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+	GetHandleVerifier [0x0xadfe43+66515]
+	GetHandleVerifier [0x0xadfe84+66580]
+	(No symbol) [0x0x8cdc48]
+	(No symbol) [0x0x8dfc3b]
+	(No symbol) [0x0x8ded10]
+	(No symbol) [0x0x8d50e2]
+	(No symbol) [0x0x8d51c6]
+	(No symbol) [0x0x8d3608]
+	(No symbol) [0x0x8d6c6c]
+	(No symbol) [0x0x95dc3d]
+	(No symbol) [0x0x93b1cc]
+	(No symbol) [0x0x95cba7]
+	(No symbol) [0x0x93afc6]
+	(No symbol) [0x0x90c2ca]
+	(No symbol) [0x0x90d154]
+	GetHandleVerifier [0x0xd37353+2521315]
+	GetHandleVerifier [0x0xd322d3+2500707]
+	GetHandleVerifier [0x0xb07c94+229924]
+	GetHandleVerifier [0x0xaf81f8+165768]
+	GetHandleVerifier [0x0xafecad+193085]
+	GetHandleVerifier [0x0xae8158+100072]
+	GetHandleVerifier [0x0xae82f0+100480]
+	GetHandleVerifier [0x0xad25aa+11066]
+	BaseThreadInitThunk [0x0x76435d49+25]
+	RtlInitializeExceptionChain [0x0x779cd6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x779cd661+561]
+
+2025-10-30 14:39:23 - ERROR: Unexpected error trace:
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\pochiNavi\pochiNavi.py", line 181, in <module>
+    driver.execute_script("arguments[0].click();", login_btn)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\selenium\webdriver\remote\webdriver.py", line 555, in execute_script
+    return self.execute(command, {"script": script, "args": converted_args})["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\selenium\webdriver\remote\errorhandler.py", line 233, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found
+  (Session info: chrome=141.0.7390.125); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+	GetHandleVerifier [0x0xadfe43+66515]
+	GetHandleVerifier [0x0xadfe84+66580]
+	(No symbol) [0x0x8cdc48]
+	(No symbol) [0x0x8dfc3b]
+	(No symbol) [0x0x8ded10]
+	(No symbol) [0x0x8d50e2]
+	(No symbol) [0x0x8d51c6]
+	(No symbol) [0x0x8d3608]
+	(No symbol) [0x0x8d6c6c]
+	(No symbol) [0x0x95dc3d]
+	(No symbol) [0x0x93b1cc]
+	(No symbol) [0x0x95cba7]
+	(No symbol) [0x0x93afc6]
+	(No symbol) [0x0x90c2ca]
+	(No symbol) [0x0x90d154]
+	GetHandleVerifier [0x0xd37353+2521315]
+	GetHandleVerifier [0x0xd322d3+2500707]
+	GetHandleVerifier [0x0xb07c94+229924]
+	GetHandleVerifier [0x0xaf81f8+165768]
+	GetHandleVerifier [0x0xafecad+193085]
+	GetHandleVerifier [0x0xae8158+100072]
+	GetHandleVerifier [0x0xae82f0+100480]
+	GetHandleVerifier [0x0xad25aa+11066]
+	BaseThreadInitThunk [0x0x76435d49+25]
+	RtlInitializeExceptionChain [0x0x779cd6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x779cd661+561]
+
+2025-10-30 14:39:24 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2025-10-30 14:40:10 - INFO: --- 起動 ---
+2025-10-30 14:40:10 - INFO: ChromeDriverの確認を開始...
+2025-10-30 14:40:13 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\141.0.7390.122\chromedriver-win32/chromedriver.exe
+2025-10-30 14:40:16 - INFO: フィールド key1 への入力を開始
+2025-10-30 14:40:16 - INFO: フィールド key1 への入力完了: 111
+2025-10-30 14:40:16 - INFO: フィールド key2 への入力を開始
+2025-10-30 14:40:16 - INFO: フィールド key2 への入力完了: 222
+2025-10-30 14:40:16 - INFO: フィールド key3 への入力を開始
+2025-10-30 14:40:16 - INFO: フィールド key3 への入力完了: 333
+2025-10-30 14:40:16 - INFO: ログインボタンを検索中...
+2025-10-30 14:40:16 - INFO: ログインボタンが見つかりました
+2025-10-30 14:40:17 - INFO: ログインボタンをクリック中...
+2025-10-30 14:40:17 - INFO: ログインボタンのクリック完了
+2025-10-30 14:40:20 - INFO: 非同期処理の完了を待機中...
+2025-10-30 14:40:20 - INFO: ログイン処理後の確認中...
+2025-10-30 14:40:20 - INFO: ページタイトルの変化を30秒間監視...
+2025-10-30 14:40:20 - INFO: ログインに成功しました。
+2025-10-30 14:40:20 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2025-10-30 14:41:37 - INFO: --- 起動 ---
+2025-10-30 14:41:37 - INFO: ChromeDriverの確認を開始...
+2025-10-30 14:41:40 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\141.0.7390.122\chromedriver-win32/chromedriver.exe
+2025-10-30 14:41:50 - ERROR: 予期せぬエラーが発生しました: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=141.0.7390.125); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0xadfe43+66515]
+	GetHandleVerifier [0x0xadfe84+66580]
+	(No symbol) [0x0x8cdc48]
+	(No symbol) [0x0x8bce80]
+	(No symbol) [0x0x8db81b]
+	(No symbol) [0x0x941c25]
+	(No symbol) [0x0x95c4d9]
+	(No symbol) [0x0x93afc6]
+	(No symbol) [0x0x90c2ca]
+	(No symbol) [0x0x90d154]
+	GetHandleVerifier [0x0xd37353+2521315]
+	GetHandleVerifier [0x0xd322d3+2500707]
+	GetHandleVerifier [0x0xb07c94+229924]
+	GetHandleVerifier [0x0xaf81f8+165768]
+	GetHandleVerifier [0x0xafecad+193085]
+	GetHandleVerifier [0x0xae8158+100072]
+	GetHandleVerifier [0x0xae82f0+100480]
+	GetHandleVerifier [0x0xad25aa+11066]
+	BaseThreadInitThunk [0x0x76435d49+25]
+	RtlInitializeExceptionChain [0x0x779cd6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x779cd661+561]
+
+2025-10-30 14:41:50 - ERROR: Unexpected error trace:
+Traceback (most recent call last):
+  File "pochiNavi.py", line 168, in <module>
+    wait.until(EC.presence_of_all_elements_located((By.ID, "send")))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "selenium\webdriver\support\wait.py", line 129, in until
+  File "selenium\webdriver\support\expected_conditions.py", line 297, in _predicate
+  File "selenium\webdriver\remote\webdriver.py", line 967, in find_elements
+  File "selenium\webdriver\remote\webdriver.py", line 458, in execute
+  File "selenium\webdriver\remote\errorhandler.py", line 233, in check_response
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=141.0.7390.125); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0xadfe43+66515]
+	GetHandleVerifier [0x0xadfe84+66580]
+	(No symbol) [0x0x8cdc48]
+	(No symbol) [0x0x8bce80]
+	(No symbol) [0x0x8db81b]
+	(No symbol) [0x0x941c25]
+	(No symbol) [0x0x95c4d9]
+	(No symbol) [0x0x93afc6]
+	(No symbol) [0x0x90c2ca]
+	(No symbol) [0x0x90d154]
+	GetHandleVerifier [0x0xd37353+2521315]
+	GetHandleVerifier [0x0xd322d3+2500707]
+	GetHandleVerifier [0x0xb07c94+229924]
+	GetHandleVerifier [0x0xaf81f8+165768]
+	GetHandleVerifier [0x0xafecad+193085]
+	GetHandleVerifier [0x0xae8158+100072]
+	GetHandleVerifier [0x0xae82f0+100480]
+	GetHandleVerifier [0x0xad25aa+11066]
+	BaseThreadInitThunk [0x0x76435d49+25]
+	RtlInitializeExceptionChain [0x0x779cd6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x779cd661+561]
+
+2025-10-30 14:41:50 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2025-10-30 14:42:49 - INFO: --- 起動 ---
+2025-10-30 14:42:49 - INFO: ChromeDriverの確認を開始...
+2025-10-30 14:42:53 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\141.0.7390.122\chromedriver-win32/chromedriver.exe
+2025-10-30 14:43:22 - ERROR: ログイン後のページ遷移を確認できませんでした。
+2025-10-30 14:43:22 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2025-10-30 14:47:42 - INFO: --- 起動 ---
+2025-10-30 14:47:42 - INFO: ChromeDriverの確認を開始...
+2025-10-30 14:47:46 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\141.0.7390.122\chromedriver-win32/chromedriver.exe
+2025-10-30 14:48:22 - ERROR: ログイン後のページ遷移を確認できませんでした。
+2025-10-30 14:48:22 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2025-10-30 14:49:35 - INFO: --- 起動 ---
+2025-10-30 14:49:35 - INFO: ChromeDriverの確認を開始...
+2025-10-30 14:49:37 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\141.0.7390.122\chromedriver-win32/chromedriver.exe
+2025-10-30 14:49:40 - INFO: ログインに成功しました。
+2025-10-30 14:49:40 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
