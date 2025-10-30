@@ -32,3 +32,77 @@
 2025-10-30 11:45:09 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\141.0.7390.122\chromedriver-win32/chromedriver.exe
 2025-10-30 11:45:28 - ERROR: ログイン後のページ遷移を確認できませんでした。
 2025-10-30 11:45:28 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2025-10-30 14:13:30 - INFO: --- 起動 ---
+2025-10-30 14:13:30 - INFO: ChromeDriverの確認を開始...
+2025-10-30 14:13:35 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\141.0.7390.122\chromedriver-win32/chromedriver.exe
+2025-10-30 14:13:57 - ERROR: 予期せぬエラーが発生しました: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.125)
+Stacktrace:
+	GetHandleVerifier [0x0xadfe43+66515]
+	GetHandleVerifier [0x0xadfe84+66580]
+	(No symbol) [0x0x8cdc48]
+	(No symbol) [0x0x8ac18d]
+	(No symbol) [0x0x941a4e]
+	(No symbol) [0x0x95c4d9]
+	(No symbol) [0x0x93afc6]
+	(No symbol) [0x0x90c2ca]
+	(No symbol) [0x0x90d154]
+	GetHandleVerifier [0x0xd37353+2521315]
+	GetHandleVerifier [0x0xd322d3+2500707]
+	GetHandleVerifier [0x0xb07c94+229924]
+	GetHandleVerifier [0x0xaf81f8+165768]
+	GetHandleVerifier [0x0xafecad+193085]
+	GetHandleVerifier [0x0xae8158+100072]
+	GetHandleVerifier [0x0xae82f0+100480]
+	GetHandleVerifier [0x0xad25aa+11066]
+	BaseThreadInitThunk [0x0x76435d49+25]
+	RtlInitializeExceptionChain [0x0x779cd6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x779cd661+561]
+
+2025-10-30 14:13:57 - ERROR: Unexpected error trace:
+Traceback (most recent call last):
+  File "pochiNavi.py", line 168, in <module>
+    wait.until(EC.presence_of_all_elements_located((By.ID, "send")))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "selenium\webdriver\support\wait.py", line 129, in until
+  File "selenium\webdriver\support\expected_conditions.py", line 297, in _predicate
+  File "selenium\webdriver\remote\webdriver.py", line 967, in find_elements
+  File "selenium\webdriver\remote\webdriver.py", line 458, in execute
+  File "selenium\webdriver\remote\errorhandler.py", line 233, in check_response
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.125)
+Stacktrace:
+	GetHandleVerifier [0x0xadfe43+66515]
+	GetHandleVerifier [0x0xadfe84+66580]
+	(No symbol) [0x0x8cdc48]
+	(No symbol) [0x0x8ac18d]
+	(No symbol) [0x0x941a4e]
+	(No symbol) [0x0x95c4d9]
+	(No symbol) [0x0x93afc6]
+	(No symbol) [0x0x90c2ca]
+	(No symbol) [0x0x90d154]
+	GetHandleVerifier [0x0xd37353+2521315]
+	GetHandleVerifier [0x0xd322d3+2500707]
+	GetHandleVerifier [0x0xb07c94+229924]
+	GetHandleVerifier [0x0xaf81f8+165768]
+	GetHandleVerifier [0x0xafecad+193085]
+	GetHandleVerifier [0x0xae8158+100072]
+	GetHandleVerifier [0x0xae82f0+100480]
+	GetHandleVerifier [0x0xad25aa+11066]
+	BaseThreadInitThunk [0x0x76435d49+25]
+	RtlInitializeExceptionChain [0x0x779cd6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x779cd661+561]
+
+2025-10-30 14:13:57 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2025-10-30 14:14:12 - INFO: --- 起動 ---
+2025-10-30 14:14:12 - INFO: ChromeDriverの確認を開始...
+2025-10-30 14:14:15 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\141.0.7390.122\chromedriver-win32/chromedriver.exe
+2025-10-30 14:14:18 - INFO: ログインに成功しました。
+2025-10-30 14:14:18 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2025-10-30 14:14:47 - INFO: --- 起動 ---
+2025-10-30 14:14:47 - INFO: ChromeDriverの確認を開始...
+2025-10-30 14:14:50 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\141.0.7390.122\chromedriver-win32/chromedriver.exe
+2025-10-30 14:14:53 - INFO: ログインに成功しました。
+2025-10-30 14:14:53 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
