@@ -1,0 +1,4 @@
+[flake8]
+max-line-length = 120
+# E501: line too long を無効化する場合
+# ignore = E501

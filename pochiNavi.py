@@ -5,9 +5,14 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException, NoSuchElementException
 from webdriver_manager.chrome import ChromeDriverManager
-import traceback
+import logging
+import logging.handlers  # RotatingFileHandlerに必要
 import json
+import sys
 import os
+# Logファイル記録用定数--------------------------------------------------------------
+MAX_BYTES = 100 * 1024  # 100KB（コメントを実際の値に修正）
+BACKUP_COUNT = 5  # 古いログを保存する数
 # メッセージ定数定義 ----------------------------------------------------------------
 
 MESSAGES = {
@@ -41,28 +46,75 @@ def get_messages_array():
 
 
 txt = get_messages_array()
-
 URL = "https://pochipass.com/member/"
 
-# スクリプトと同じディレクトリのconfig.jsonを読み込む
-script_dir = os.path.dirname(os.path.abspath(__file__))
+# ------------------ 実行ディレクトリの決定（PyInstaller対応） ------------------
+if getattr(sys, 'frozen', False):
+    # exe化された場合（PyInstaller実行時）
+    script_dir = os.path.dirname(sys.executable)
+else:
+    # コンソールからの実行時
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+
+logfile_path = os.path.join(script_dir, 'pochiNavi.log')
 config_path = os.path.join(script_dir, 'config.json')
+# ロギング設定 ----------------------------------------------------------------
+
+logger = logging.getLogger('pochiNavi')
+logger.setLevel(logging.INFO)
+
+# ログファイルハンドラの設定
+file_handler = logging.handlers.RotatingFileHandler(
+    logfile_path,
+    maxBytes=MAX_BYTES,
+    backupCount=BACKUP_COUNT,
+    encoding='utf-8'
+)
+file_formatter = logging.Formatter(
+    '%(asctime)s - %(levelname)s: %(message)s',
+    datefmt='%Y-%m-%d %H:%M:%S'
+)
+file_handler.setFormatter(file_formatter)
+logger.addHandler(file_handler)
+
+# 開発時にはコンソールにもログを表示　非 frozen 時のみ StreamHandler を追加
+if not getattr(sys, 'frozen', False):
+    console_handler = logging.StreamHandler(sys.stdout)
+    console_handler.setFormatter(file_formatter)
+    logger.addHandler(console_handler)
+
+# helper関数 ----------------------------------------------------------------
+
+
+def log_info(msg):
+    logger.info(msg)
+
+
+def log_error(msg):
+    logger.error(msg)
+
+
+def log_exception(msg):
+    logger.exception(msg)  # スタックトレースも記録する
+
+
+log_info("--- 起動 ---")
 
 try:
     with open(config_path, 'r', encoding='utf-8') as f:
         config = json.load(f)
 except FileNotFoundError:
-    print(f"{txt[0]}: {config_path}")
-    exit(1)
+    log_error(f"{txt[0]}: {config_path}")
+    sys.exit(1)
 except json.JSONDecodeError:
-    print(f"{txt[1]}: {config_path}")
-    exit(1)
+    log_error(f"{txt[1]}: {config_path}")
+    sys.exit(1)
+
 my_keys = [str(config["key1"]), str(config["key2"]), str(config["key3"])]
 el_ids = ["key1", "key2", "key3"]
 
 service = Service(ChromeDriverManager().install())
 options = webdriver.ChromeOptions()
-# options.add_argument("--headless")  # Run in headless mode
 driver = None
 
 try:
@@ -88,25 +140,25 @@ try:
     # ログイン後のページ遷移を待機
     try:
         wait.until(EC.url_changes(URL))
-        print(txt[3])
+        log_info(txt[3])
     except TimeoutException:
-        print(txt[4])
+        log_error(txt[4])
 except ValueError as ve:
-    print(f"{txt[5]}:{ve}")
-    traceback.print_exc()
+    log_error(f"{txt[5]}: {ve}")
+    log_exception("ValueError trace:")
 
 except TimeoutException as te:
-    print(f"{txt[6]}: {te}")
-    traceback.print_exc()
+    log_error(f"{txt[6]}: {te}")
+    log_exception("TimeoutException trace:")
 
 except NoSuchElementException as nse:
-    print(f"{txt[7]}: {nse}")
-    traceback.print_exc()
+    log_error(f"{txt[7]}: {nse}")
+    log_exception("NoSuchElementException trace:")
 
 except Exception as e:
-    print(f"{txt[8]}: {e}")
-    traceback.print_exc()
+    log_error(f"{txt[8]}: {e}")
+    log_exception("Unexpected error trace:")
 
 finally:
     if driver:
-        print(f"[INFO] {txt[9]}")
+        log_info(f"---{txt[9]}---")
