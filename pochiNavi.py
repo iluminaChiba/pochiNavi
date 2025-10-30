@@ -10,7 +10,6 @@ import logging.handlers  # RotatingFileHandlerに必要
 import json
 import sys
 import os
-import time
 # Logファイル記録用定数--------------------------------------------------------------
 MAX_BYTES = 100 * 1024  # 100KB（コメントを実際の値に修正）
 BACKUP_COUNT = 5  # 古いログを保存する数
@@ -105,13 +104,13 @@ def get_cached_chromedriver():
 
     try:
         log_info("ChromeDriverの確認を開始...")
-        
+
         # WebDriverManagerのデフォルトキャッシュ機能を使用
         driver_path = ChromeDriverManager().install()
-        
+
         log_info(f"ChromeDriverパス: {driver_path}")
         return driver_path
-        
+
     except Exception as e:
         log_error(f"ChromeDriverの取得に失敗: {e}")
         raise
