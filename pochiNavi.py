@@ -10,6 +10,7 @@ import logging.handlers  # RotatingFileHandlerに必要
 import json
 import sys
 import os
+import time
 # Logファイル記録用定数--------------------------------------------------------------
 MAX_BYTES = 100 * 1024  # 100KB（コメントを実際の値に修正）
 BACKUP_COUNT = 5  # 古いログを保存する数
@@ -25,7 +26,8 @@ MESSAGES = {
     'timeout_error': "タイムアウトが発生しました",
     'element_not_found': "必要な要素が見つかりません",
     'unexpected_error': "予期せぬエラーが発生しました",
-    'browser_closed': "スクリプトを終了します。ブラウザは開いたまま残ります。"
+    'browser_closed': "スクリプトを終了します。ブラウザは開いたまま残ります。",
+    'driver_not_initialized': "ChromeDriverが初期化されていません。"
 }
 
 
@@ -41,7 +43,8 @@ def get_messages_array():
         MESSAGES['timeout_error'],
         MESSAGES['element_not_found'],
         MESSAGES['unexpected_error'],
-        MESSAGES['browser_closed']
+        MESSAGES['browser_closed'],
+        MESSAGES['driver_not_initialized']
     ]
 
 
@@ -75,13 +78,13 @@ file_formatter = logging.Formatter(
     datefmt='%Y-%m-%d %H:%M:%S'
 )
 file_handler.setFormatter(file_formatter)
-logger.addHandler(file_handler)
 
-# 開発時にはコンソールにもログを表示　非 frozen 時のみ StreamHandler を追加
-if not getattr(sys, 'frozen', False):
-    console_handler = logging.StreamHandler(sys.stdout)
-    console_handler.setFormatter(file_formatter)
-    logger.addHandler(console_handler)
+if not logger.handlers:
+    logger.addHandler(file_handler)
+    if not getattr(sys, 'frozen', False):
+        console_handler = logging.StreamHandler(sys.stdout)
+        console_handler.setFormatter(file_formatter)
+        logger.addHandler(console_handler)
 
 # helper関数 ----------------------------------------------------------------
 
@@ -98,6 +101,22 @@ def log_exception(msg):
     logger.exception(msg)  # スタックトレースも記録する
 
 
+def get_cached_chromedriver():
+
+    try:
+        log_info("ChromeDriverの確認を開始...")
+        
+        # WebDriverManagerのデフォルトキャッシュ機能を使用
+        driver_path = ChromeDriverManager().install()
+        
+        log_info(f"ChromeDriverパス: {driver_path}")
+        return driver_path
+        
+    except Exception as e:
+        log_error(f"ChromeDriverの取得に失敗: {e}")
+        raise
+
+
 log_info("--- 起動 ---")
 
 try:
@@ -110,17 +129,23 @@ except json.JSONDecodeError:
     log_error(f"{txt[1]}: {config_path}")
     sys.exit(1)
 
-my_keys = [str(config["key1"]), str(config["key2"]), str(config["key3"])]
-el_ids = ["key1", "key2", "key3"]
+# キー情報を一箇所で定義
+KEY_FIELDS = ["key1", "key2", "key3"]
 
-service = Service(ChromeDriverManager().install())
+try:
+    # 設定からキー情報を辞書形式で取得
+    login_keys = {field: str(config[field]) for field in KEY_FIELDS}
+except KeyError as ke:
+    log_error(f"{txt[5]}: {ke}")
+    sys.exit(1)
+
+# キャッシュを利用してChromeDriverを取得
+chromedriver_path = get_cached_chromedriver()
+service = Service(chromedriver_path)
 options = webdriver.ChromeOptions()
 driver = None
 
 try:
-    if len(my_keys) != len(el_ids):
-        raise ValueError(txt[2])
-
     options.add_experimental_option("detach", True)  # スクリプト終了後もブラウザを開いたままにする呪文
     driver = webdriver.Chrome(service=service, options=options)
     driver.get(URL)
@@ -128,18 +153,19 @@ try:
     wait = WebDriverWait(driver, 15)
     wait.until(EC.presence_of_element_located((By.TAG_NAME, "body")))
 
-    for el_id, key in zip(el_ids, my_keys):
-        el = wait.until(EC.element_to_be_clickable((By.ID, el_id)))
+    for field_id in KEY_FIELDS:
+        el = wait.until(EC.element_to_be_clickable((By.ID, field_id)))
+        key_value = login_keys[field_id]
         el.clear()
-        el.send_keys(key)
-        wait.until(lambda d: el.get_attribute('value') == key)
+        el.send_keys(key_value)
+        wait.until(lambda d: el.get_attribute('value') == key_value)
 
     login_btn = wait.until(EC.element_to_be_clickable((By.ID, "login")))
     login_btn.click()
 
     # ログイン後のページ遷移を待機
     try:
-        wait.until(EC.url_changes(URL))
+        wait.until(EC.presence_of_all_elements_located((By.ID, "send")))
         log_info(txt[3])
     except TimeoutException:
         log_error(txt[4])
@@ -160,5 +186,7 @@ except Exception as e:
     log_exception("Unexpected error trace:")
 
 finally:
-    if driver:
+    if driver is not None:
         log_info(f"---{txt[9]}---")
+    else:
+        log_info(f"---{txt[10]}---")

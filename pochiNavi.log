@@ -1,0 +1,34 @@
+2025-10-30 10:06:39 - INFO: --- 起動 ---
+2025-10-30 10:06:39 - INFO: ChromeDriverの確認を開始...
+2025-10-30 10:06:39 - ERROR: ChromeDriverの取得に失敗: ChromeDriverManager.__init__() got an unexpected keyword argument 'cache_valid_range'
+2025-10-30 10:08:23 - INFO: --- 起動 ---
+2025-10-30 10:08:23 - INFO: ChromeDriverの確認を開始...
+2025-10-30 10:08:33 - INFO: ChromeDriver: ダウンロード完了 (9.83秒)
+2025-10-30 10:08:33 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\141.0.7390.122\chromedriver-win32/chromedriver.exe
+2025-10-30 10:08:38 - INFO: ログインに成功しました。
+2025-10-30 10:08:38 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2025-10-30 10:08:53 - INFO: --- 起動 ---
+2025-10-30 10:08:53 - INFO: ChromeDriverの確認を開始...
+2025-10-30 10:08:56 - INFO: ChromeDriver: ダウンロード完了 (3.17秒)
+2025-10-30 10:08:56 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\141.0.7390.122\chromedriver-win32/chromedriver.exe
+2025-10-30 10:08:59 - INFO: ログインに成功しました。
+2025-10-30 10:08:59 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2025-10-30 11:11:20 - INFO: --- 起動 ---
+2025-10-30 11:11:20 - INFO: ChromeDriverの確認を開始...
+2025-10-30 11:11:24 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\141.0.7390.122\chromedriver-win32/chromedriver.exe
+2025-10-30 11:11:29 - INFO: ログインに成功しました。
+2025-10-30 11:11:29 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2025-10-30 11:36:56 - INFO: --- 起動 ---
+2025-10-30 11:36:56 - INFO: 設定ファイル読み込み: C:\Users\user\Desktop\pochiNavi\config.json
+2025-10-30 11:36:56 - INFO: ChromeDriverの確認を開始...
+2025-10-30 11:36:56 - ERROR: ChromeDriverの取得に失敗: ChromeDriverManager.__init__() got an unexpected keyword argument 'cache_valid_range'
+2025-10-30 11:44:09 - INFO: --- 起動 ---
+2025-10-30 11:44:09 - INFO: ChromeDriverの確認を開始...
+2025-10-30 11:44:13 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\141.0.7390.122\chromedriver-win32/chromedriver.exe
+2025-10-30 11:44:32 - ERROR: ログイン後のページ遷移を確認できませんでした。
+2025-10-30 11:44:32 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2025-10-30 11:45:06 - INFO: --- 起動 ---
+2025-10-30 11:45:06 - INFO: ChromeDriverの確認を開始...
+2025-10-30 11:45:09 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\141.0.7390.122\chromedriver-win32/chromedriver.exe
+2025-10-30 11:45:28 - ERROR: ログイン後のページ遷移を確認できませんでした。
+2025-10-30 11:45:28 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
