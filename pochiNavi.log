@@ -396,3 +396,658 @@ Stacktrace:
 2025-10-30 14:49:37 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\141.0.7390.122\chromedriver-win32/chromedriver.exe
 2025-10-30 14:49:40 - INFO: ログインに成功しました。
 2025-10-30 14:49:40 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2025-10-30 14:51:29 - INFO: --- 起動 ---
+2025-10-30 14:51:29 - INFO: ChromeDriverの確認を開始...
+2025-10-30 14:51:33 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\141.0.7390.122\chromedriver-win32/chromedriver.exe
+2025-10-30 14:51:37 - INFO: ログインに成功しました。
+2025-10-30 14:51:37 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2025-10-30 14:53:50 - INFO: --- 起動 ---
+2025-10-30 14:53:50 - INFO: ChromeDriverの確認を開始...
+2025-10-30 14:53:54 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\141.0.7390.122\chromedriver-win32/chromedriver.exe
+2025-10-30 14:53:57 - INFO: ログインに成功しました。
+2025-10-30 14:53:57 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2025-10-30 15:12:20 - INFO: --- 起動 ---
+2025-10-30 15:12:20 - INFO: ChromeDriverの確認を開始...
+2025-10-30 15:12:24 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\141.0.7390.122\chromedriver-win32/chromedriver.exe
+2025-10-30 15:12:28 - INFO: ログインに成功しました。
+2025-10-30 15:12:28 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2025-10-30 15:54:53 - INFO: --- 起動 ---
+2025-10-30 15:54:53 - INFO: ChromeDriverの確認を開始...
+2025-10-30 15:54:55 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\141.0.7390.122\chromedriver-win32/chromedriver.exe
+2025-10-30 15:54:59 - INFO: ログインに成功しました。
+2025-10-30 15:54:59 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2025-10-31 15:12:01 - INFO: --- 起動 ---
+2025-10-31 15:12:01 - INFO: ChromeDriverの確認を開始...
+2025-10-31 15:12:16 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\141.0.7390.122\chromedriver-win32/chromedriver.exe
+2025-10-31 15:12:22 - INFO: ログインに成功しました。
+2025-10-31 15:12:22 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2025-11-07 15:01:42 - INFO: --- 起動 ---
+2025-11-07 15:01:42 - INFO: ChromeDriverの確認を開始...
+2025-11-07 15:01:50 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\141.0.7390.122\chromedriver-win32/chromedriver.exe
+2025-11-07 15:01:54 - INFO: --- 起動 ---
+2025-11-07 15:01:54 - INFO: ChromeDriverの確認を開始...
+2025-11-07 15:01:56 - INFO: ログインに成功しました。
+2025-11-07 15:01:56 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2025-11-07 15:01:59 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\141.0.7390.122\chromedriver-win32/chromedriver.exe
+2025-11-07 15:02:02 - INFO: ログインに成功しました。
+2025-11-07 15:02:02 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2025-11-10 15:56:23 - INFO: --- 起動 ---
+2025-11-10 15:56:23 - INFO: ChromeDriverの確認を開始...
+2025-11-10 15:56:39 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\141.0.7390.122\chromedriver.exe
+2025-11-10 15:56:44 - INFO: ログインに成功しました。
+2025-11-10 15:56:44 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2025-11-11 15:33:26 - INFO: --- 起動 ---
+2025-11-11 15:33:26 - INFO: ChromeDriverの確認を開始...
+2025-11-11 15:33:34 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\141.0.7390.122\chromedriver-win32/chromedriver.exe
+2025-11-11 15:33:39 - INFO: ログインに成功しました。
+2025-11-11 15:33:39 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2025-11-12 16:00:39 - INFO: --- 起動 ---
+2025-11-12 16:00:39 - INFO: ChromeDriverの確認を開始...
+2025-11-12 16:00:52 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\141.0.7390.122\chromedriver-win32/chromedriver.exe
+2025-11-12 16:00:57 - INFO: ログインに成功しました。
+2025-11-12 16:00:57 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2025-11-13 15:54:59 - INFO: --- 起動 ---
+2025-11-13 15:54:59 - INFO: ChromeDriverの確認を開始...
+2025-11-13 15:55:10 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\141.0.7390.122\chromedriver-win32/chromedriver.exe
+2025-11-13 15:55:16 - INFO: ログインに成功しました。
+2025-11-13 15:55:16 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2025-11-14 13:46:32 - INFO: --- 起動 ---
+2025-11-14 13:46:32 - INFO: ChromeDriverの確認を開始...
+2025-11-14 13:46:39 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\141.0.7390.122\chromedriver-win32/chromedriver.exe
+2025-11-14 13:46:44 - INFO: ログインに成功しました。
+2025-11-14 13:46:44 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2025-11-17 15:43:59 - INFO: --- 起動 ---
+2025-11-17 15:43:59 - INFO: ChromeDriverの確認を開始...
+2025-11-17 15:44:07 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\141.0.7390.122\chromedriver-win32/chromedriver.exe
+2025-11-17 15:44:13 - INFO: ログインに成功しました。
+2025-11-17 15:44:13 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2025-11-17 15:58:51 - INFO: --- 起動 ---
+2025-11-17 15:58:51 - INFO: ChromeDriverの確認を開始...
+2025-11-17 15:58:54 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\141.0.7390.122\chromedriver-win32/chromedriver.exe
+2025-11-17 15:58:57 - INFO: ログインに成功しました。
+2025-11-17 15:58:57 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2025-11-18 15:02:20 - INFO: --- 起動 ---
+2025-11-18 15:02:20 - INFO: ChromeDriverの確認を開始...
+2025-11-18 15:02:29 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\142.0.7444.175\chromedriver-win32/chromedriver.exe
+2025-11-18 15:02:38 - INFO: ログインに成功しました。
+2025-11-18 15:02:38 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2025-11-20 15:05:39 - INFO: --- 起動 ---
+2025-11-20 15:05:39 - INFO: ChromeDriverの確認を開始...
+2025-11-20 15:05:49 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\142.0.7444.175\chromedriver-win32/chromedriver.exe
+2025-11-20 15:05:55 - INFO: ログインに成功しました。
+2025-11-20 15:05:55 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2025-11-21 15:10:43 - INFO: --- 起動 ---
+2025-11-21 15:10:43 - INFO: ChromeDriverの確認を開始...
+2025-11-21 15:10:52 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\142.0.7444.175\chromedriver-win32/chromedriver.exe
+2025-11-21 15:10:57 - INFO: ログインに成功しました。
+2025-11-21 15:10:57 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2025-11-21 15:54:24 - INFO: --- 起動 ---
+2025-11-21 15:54:24 - INFO: ChromeDriverの確認を開始...
+2025-11-21 15:54:32 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\142.0.7444.175\chromedriver-win32/chromedriver.exe
+2025-11-21 15:54:35 - INFO: ログインに成功しました。
+2025-11-21 15:54:35 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2025-11-25 15:53:28 - INFO: --- 起動 ---
+2025-11-25 15:53:28 - INFO: ChromeDriverの確認を開始...
+2025-11-25 15:53:37 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\142.0.7444.175\chromedriver-win32/chromedriver.exe
+2025-11-25 15:53:43 - INFO: ログインに成功しました。
+2025-11-25 15:53:43 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2025-11-26 15:54:06 - INFO: --- 起動 ---
+2025-11-26 15:54:06 - INFO: ChromeDriverの確認を開始...
+2025-11-26 15:54:14 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\142.0.7444.175\chromedriver-win32/chromedriver.exe
+2025-11-26 15:54:19 - INFO: ログインに成功しました。
+2025-11-26 15:54:19 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2025-11-27 15:56:57 - INFO: --- 起動 ---
+2025-11-27 15:56:57 - INFO: ChromeDriverの確認を開始...
+2025-11-27 15:57:05 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\142.0.7444.175\chromedriver-win32/chromedriver.exe
+2025-11-27 15:57:10 - INFO: ログインに成功しました。
+2025-11-27 15:57:10 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2025-11-28 15:56:45 - INFO: --- 起動 ---
+2025-11-28 15:56:45 - INFO: ChromeDriverの確認を開始...
+2025-11-28 15:56:54 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\142.0.7444.175\chromedriver-win32/chromedriver.exe
+2025-11-28 15:57:03 - INFO: ログインに成功しました。
+2025-11-28 15:57:03 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2025-12-01 15:57:27 - INFO: --- 起動 ---
+2025-12-01 15:57:27 - INFO: ChromeDriverの確認を開始...
+2025-12-01 15:57:36 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\142.0.7444.175\chromedriver-win32/chromedriver.exe
+2025-12-01 15:57:42 - INFO: ログインに成功しました。
+2025-12-01 15:57:42 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2025-12-02 15:56:42 - INFO: --- 起動 ---
+2025-12-02 15:56:42 - INFO: ChromeDriverの確認を開始...
+2025-12-02 15:56:51 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\142.0.7444.175\chromedriver-win32/chromedriver.exe
+2025-12-02 15:56:57 - INFO: ログインに成功しました。
+2025-12-02 15:56:57 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2025-12-03 15:57:45 - INFO: --- 起動 ---
+2025-12-03 15:57:45 - INFO: ChromeDriverの確認を開始...
+2025-12-03 15:58:04 - INFO: --- 起動 ---
+2025-12-03 15:58:04 - INFO: ChromeDriverの確認を開始...
+2025-12-03 15:58:04 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\142.0.7444.175\chromedriver-win32/chromedriver.exe
+2025-12-03 15:58:08 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\142.0.7444.175\chromedriver-win32/chromedriver.exe
+2025-12-03 15:58:10 - INFO: ログインに成功しました。
+2025-12-03 15:58:10 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2025-12-03 15:58:11 - INFO: ログインに成功しました。
+2025-12-03 15:58:11 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2025-12-04 15:52:49 - INFO: --- 起動 ---
+2025-12-04 15:52:49 - INFO: ChromeDriverの確認を開始...
+2025-12-04 15:52:57 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\142.0.7444.175\chromedriver-win32/chromedriver.exe
+2025-12-04 15:53:02 - INFO: ログインに成功しました。
+2025-12-04 15:53:02 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2025-12-05 15:56:59 - INFO: --- 起動 ---
+2025-12-05 15:56:59 - INFO: ChromeDriverの確認を開始...
+2025-12-05 15:57:10 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\142.0.7444.175\chromedriver-win32/chromedriver.exe
+2025-12-05 15:57:16 - INFO: ログインに成功しました。
+2025-12-05 15:57:16 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2025-12-08 15:56:45 - INFO: --- 起動 ---
+2025-12-08 15:56:45 - INFO: ChromeDriverの確認を開始...
+2025-12-08 15:56:52 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\142.0.7444.175\chromedriver-win32/chromedriver.exe
+2025-12-08 15:56:57 - INFO: ログインに成功しました。
+2025-12-08 15:56:57 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2025-12-09 15:53:28 - INFO: --- 起動 ---
+2025-12-09 15:53:28 - INFO: ChromeDriverの確認を開始...
+2025-12-09 15:53:36 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\142.0.7444.175\chromedriver-win32/chromedriver.exe
+2025-12-09 15:53:41 - INFO: ログインに成功しました。
+2025-12-09 15:53:41 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2025-12-10 15:58:15 - INFO: --- 起動 ---
+2025-12-10 15:58:15 - INFO: ChromeDriverの確認を開始...
+2025-12-10 15:58:25 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\142.0.7444.175\chromedriver-win32/chromedriver.exe
+2025-12-10 15:58:30 - INFO: ログインに成功しました。
+2025-12-10 15:58:30 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2025-12-11 15:55:57 - INFO: --- 起動 ---
+2025-12-11 15:55:57 - INFO: ChromeDriverの確認を開始...
+2025-12-11 15:56:13 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\142.0.7444.175\chromedriver-win32/chromedriver.exe
+2025-12-11 15:56:18 - INFO: ログインに成功しました。
+2025-12-11 15:56:18 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2025-12-12 15:59:09 - INFO: --- 起動 ---
+2025-12-12 15:59:09 - INFO: ChromeDriverの確認を開始...
+2025-12-12 15:59:33 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\142.0.7444.175\chromedriver-win32/chromedriver.exe
+2025-12-12 15:59:39 - INFO: ログインに成功しました。
+2025-12-12 15:59:39 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2025-12-16 10:04:02 - INFO: --- 起動 ---
+2025-12-16 10:04:02 - INFO: ChromeDriverの確認を開始...
+2025-12-16 10:04:14 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\142.0.7444.175\chromedriver-win32/chromedriver.exe
+2025-12-16 10:04:19 - INFO: ログインに成功しました。
+2025-12-16 10:04:19 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2025-12-16 15:56:05 - INFO: --- 起動 ---
+2025-12-16 15:56:05 - INFO: ChromeDriverの確認を開始...
+2025-12-16 15:56:13 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\142.0.7444.175\chromedriver-win32/chromedriver.exe
+2025-12-16 15:56:17 - INFO: ログインに成功しました。
+2025-12-16 15:56:17 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2025-12-18 15:56:55 - INFO: --- 起動 ---
+2025-12-18 15:56:55 - INFO: ChromeDriverの確認を開始...
+2025-12-18 15:57:07 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\142.0.7444.175\chromedriver-win32/chromedriver.exe
+2025-12-18 15:57:13 - INFO: ログインに成功しました。
+2025-12-18 15:57:13 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2025-12-19 15:57:11 - INFO: --- 起動 ---
+2025-12-19 15:57:11 - INFO: ChromeDriverの確認を開始...
+2025-12-19 15:57:24 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\143.0.7499.169\chromedriver-win32/chromedriver.exe
+2025-12-19 15:57:30 - INFO: ログインに成功しました。
+2025-12-19 15:57:30 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2025-12-22 15:56:11 - INFO: --- 起動 ---
+2025-12-22 15:56:11 - INFO: ChromeDriverの確認を開始...
+2025-12-22 15:56:32 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\143.0.7499.169\chromedriver-win32/chromedriver.exe
+2025-12-22 15:56:39 - INFO: ログインに成功しました。
+2025-12-22 15:56:39 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2025-12-23 15:56:24 - INFO: --- 起動 ---
+2025-12-23 15:56:24 - INFO: ChromeDriverの確認を開始...
+2025-12-23 15:56:41 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\143.0.7499.169\chromedriver-win32/chromedriver.exe
+2025-12-23 15:56:47 - INFO: ログインに成功しました。
+2025-12-23 15:56:47 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2025-12-24 15:57:16 - INFO: --- 起動 ---
+2025-12-24 15:57:16 - INFO: ChromeDriverの確認を開始...
+2025-12-24 15:57:34 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\143.0.7499.169\chromedriver-win32/chromedriver.exe
+2025-12-24 15:57:41 - INFO: ログインに成功しました。
+2025-12-24 15:57:41 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2025-12-26 15:57:45 - INFO: --- 起動 ---
+2025-12-26 15:57:45 - INFO: ChromeDriverの確認を開始...
+2025-12-26 15:58:03 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\143.0.7499.169\chromedriver-win32/chromedriver.exe
+2025-12-26 15:58:14 - INFO: ログインに成功しました。
+2025-12-26 15:58:14 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2025-12-27 14:04:41 - INFO: --- 起動 ---
+2025-12-27 14:04:41 - INFO: ChromeDriverの確認を開始...
+2025-12-27 14:04:57 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\143.0.7499.169\chromedriver-win32/chromedriver.exe
+2025-12-27 14:05:03 - INFO: ログインに成功しました。
+2025-12-27 14:05:03 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2025-12-29 15:58:19 - INFO: --- 起動 ---
+2025-12-29 15:58:19 - INFO: ChromeDriverの確認を開始...
+2025-12-29 15:58:29 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\143.0.7499.169\chromedriver-win32/chromedriver.exe
+2025-12-29 15:58:35 - INFO: ログインに成功しました。
+2025-12-29 15:58:35 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2025-12-30 14:04:58 - INFO: --- 起動 ---
+2025-12-30 14:04:58 - INFO: ChromeDriverの確認を開始...
+2025-12-30 14:05:34 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\143.0.7499.169\chromedriver-win32/chromedriver.exe
+2025-12-30 14:05:40 - INFO: ログインに成功しました。
+2025-12-30 14:05:40 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2026-01-05 15:57:54 - INFO: --- 起動 ---
+2026-01-05 15:57:54 - INFO: ChromeDriverの確認を開始...
+2026-01-05 15:58:11 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\143.0.7499.169\chromedriver-win32/chromedriver.exe
+2026-01-05 15:58:18 - INFO: ログインに成功しました。
+2026-01-05 15:58:18 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2026-01-06 15:50:52 - INFO: --- 起動 ---
+2026-01-06 15:50:52 - INFO: ChromeDriverの確認を開始...
+2026-01-06 15:51:15 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\143.0.7499.169\chromedriver-win32/chromedriver.exe
+2026-01-06 15:51:21 - INFO: ログインに成功しました。
+2026-01-06 15:51:21 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2026-01-07 15:37:36 - INFO: --- 起動 ---
+2026-01-07 15:37:36 - INFO: ChromeDriverの確認を開始...
+2026-01-07 15:37:43 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\143.0.7499.192\chromedriver-win32/chromedriver.exe
+2026-01-07 15:37:49 - INFO: ログインに成功しました。
+2026-01-07 15:37:49 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2026-01-08 15:59:00 - INFO: --- 起動 ---
+2026-01-08 15:59:00 - INFO: ChromeDriverの確認を開始...
+2026-01-08 15:59:11 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\143.0.7499.192\chromedriver-win32/chromedriver.exe
+2026-01-08 15:59:54 - ERROR: 予期せぬエラーが発生しました: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=143.0.7499.170)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x541213
+	0x541254
+	0x32e6dd
+	0x30ca8d
+	0x3a1ffb
+	0x3bd44c
+	0x39b2e6
+	0x36d321
+	0x36e1d4
+	0x795254
+	0x79080b
+	0x7ad0ea
+	0x55b118
+	0x56311d
+	0x549518
+	0x5496d9
+	0x533a68
+	0x75be5d49
+	0x7726d5db
+	0x7726d561
+
+2026-01-08 15:59:54 - ERROR: Unexpected error trace:
+Traceback (most recent call last):
+  File "pochiNavi.py", line 154, in <module>
+    wait.until(EC.presence_of_element_located((By.TAG_NAME, "body")))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "selenium\webdriver\support\wait.py", line 129, in until
+  File "selenium\webdriver\support\expected_conditions.py", line 104, in _predicate
+  File "selenium\webdriver\remote\webdriver.py", line 926, in find_element
+  File "selenium\webdriver\remote\webdriver.py", line 458, in execute
+  File "selenium\webdriver\remote\errorhandler.py", line 233, in check_response
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=143.0.7499.170)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x541213
+	0x541254
+	0x32e6dd
+	0x30ca8d
+	0x3a1ffb
+	0x3bd44c
+	0x39b2e6
+	0x36d321
+	0x36e1d4
+	0x795254
+	0x79080b
+	0x7ad0ea
+	0x55b118
+	0x56311d
+	0x549518
+	0x5496d9
+	0x533a68
+	0x75be5d49
+	0x7726d5db
+	0x7726d561
+
+2026-01-08 15:59:54 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2026-01-08 15:59:58 - INFO: --- 起動 ---
+2026-01-08 15:59:58 - INFO: ChromeDriverの確認を開始...
+2026-01-08 16:00:01 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\143.0.7499.192\chromedriver-win32/chromedriver.exe
+2026-01-08 16:00:14 - ERROR: 予期せぬエラーが発生しました: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=143.0.7499.170)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x541213
+	0x541254
+	0x32e6dd
+	0x30ca8d
+	0x3a1ffb
+	0x3bd44c
+	0x39b2e6
+	0x36d321
+	0x36e1d4
+	0x795254
+	0x79080b
+	0x7ad0ea
+	0x55b118
+	0x56311d
+	0x549518
+	0x5496d9
+	0x533a68
+	0x75be5d49
+	0x7726d5db
+	0x7726d561
+
+2026-01-08 16:00:14 - ERROR: Unexpected error trace:
+Traceback (most recent call last):
+  File "pochiNavi.py", line 154, in <module>
+    wait.until(EC.presence_of_element_located((By.TAG_NAME, "body")))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "selenium\webdriver\support\wait.py", line 129, in until
+  File "selenium\webdriver\support\expected_conditions.py", line 104, in _predicate
+  File "selenium\webdriver\remote\webdriver.py", line 926, in find_element
+  File "selenium\webdriver\remote\webdriver.py", line 458, in execute
+  File "selenium\webdriver\remote\errorhandler.py", line 233, in check_response
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=143.0.7499.170)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x541213
+	0x541254
+	0x32e6dd
+	0x30ca8d
+	0x3a1ffb
+	0x3bd44c
+	0x39b2e6
+	0x36d321
+	0x36e1d4
+	0x795254
+	0x79080b
+	0x7ad0ea
+	0x55b118
+	0x56311d
+	0x549518
+	0x5496d9
+	0x533a68
+	0x75be5d49
+	0x7726d5db
+	0x7726d561
+
+2026-01-08 16:00:14 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2026-01-08 16:00:24 - INFO: --- 起動 ---
+2026-01-08 16:00:24 - INFO: ChromeDriverの確認を開始...
+2026-01-08 16:00:28 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\143.0.7499.192\chromedriver-win32/chromedriver.exe
+2026-01-08 16:00:51 - ERROR: 予期せぬエラーが発生しました: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=143.0.7499.170)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x541213
+	0x541254
+	0x32e6dd
+	0x30ca8d
+	0x3a1ffb
+	0x3bd44c
+	0x39b2e6
+	0x36d321
+	0x36e1d4
+	0x795254
+	0x79080b
+	0x7ad0ea
+	0x55b118
+	0x56311d
+	0x549518
+	0x5496d9
+	0x533a68
+	0x75be5d49
+	0x7726d5db
+	0x7726d561
+
+2026-01-08 16:00:51 - ERROR: Unexpected error trace:
+Traceback (most recent call last):
+  File "pochiNavi.py", line 154, in <module>
+    wait.until(EC.presence_of_element_located((By.TAG_NAME, "body")))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "selenium\webdriver\support\wait.py", line 129, in until
+  File "selenium\webdriver\support\expected_conditions.py", line 104, in _predicate
+  File "selenium\webdriver\remote\webdriver.py", line 926, in find_element
+  File "selenium\webdriver\remote\webdriver.py", line 458, in execute
+  File "selenium\webdriver\remote\errorhandler.py", line 233, in check_response
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=143.0.7499.170)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x541213
+	0x541254
+	0x32e6dd
+	0x30ca8d
+	0x3a1ffb
+	0x3bd44c
+	0x39b2e6
+	0x36d321
+	0x36e1d4
+	0x795254
+	0x79080b
+	0x7ad0ea
+	0x55b118
+	0x56311d
+	0x549518
+	0x5496d9
+	0x533a68
+	0x75be5d49
+	0x7726d5db
+	0x7726d561
+
+2026-01-08 16:00:51 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2026-01-08 16:01:03 - INFO: --- 起動 ---
+2026-01-08 16:01:03 - INFO: ChromeDriverの確認を開始...
+2026-01-08 16:01:07 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\143.0.7499.192\chromedriver-win32/chromedriver.exe
+2026-01-08 16:01:50 - ERROR: 予期せぬエラーが発生しました: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=143.0.7499.170)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x541213
+	0x541254
+	0x32e6dd
+	0x30ca8d
+	0x3a1ffb
+	0x3bd44c
+	0x39b2e6
+	0x36d321
+	0x36e1d4
+	0x795254
+	0x79080b
+	0x7ad0ea
+	0x55b118
+	0x56311d
+	0x549518
+	0x5496d9
+	0x533a68
+	0x75be5d49
+	0x7726d5db
+	0x7726d561
+
+2026-01-08 16:01:50 - ERROR: Unexpected error trace:
+Traceback (most recent call last):
+  File "pochiNavi.py", line 154, in <module>
+    wait.until(EC.presence_of_element_located((By.TAG_NAME, "body")))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "selenium\webdriver\support\wait.py", line 129, in until
+  File "selenium\webdriver\support\expected_conditions.py", line 104, in _predicate
+  File "selenium\webdriver\remote\webdriver.py", line 926, in find_element
+  File "selenium\webdriver\remote\webdriver.py", line 458, in execute
+  File "selenium\webdriver\remote\errorhandler.py", line 233, in check_response
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=143.0.7499.170)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x541213
+	0x541254
+	0x32e6dd
+	0x30ca8d
+	0x3a1ffb
+	0x3bd44c
+	0x39b2e6
+	0x36d321
+	0x36e1d4
+	0x795254
+	0x79080b
+	0x7ad0ea
+	0x55b118
+	0x56311d
+	0x549518
+	0x5496d9
+	0x533a68
+	0x75be5d49
+	0x7726d5db
+	0x7726d561
+
+2026-01-08 16:01:50 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2026-01-08 16:02:26 - INFO: --- 起動 ---
+2026-01-08 16:02:26 - INFO: ChromeDriverの確認を開始...
+2026-01-08 16:02:30 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\143.0.7499.192\chromedriver-win32/chromedriver.exe
+2026-01-08 16:02:54 - ERROR: 予期せぬエラーが発生しました: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=143.0.7499.170)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x541213
+	0x541254
+	0x32e6dd
+	0x30ca8d
+	0x3a1ffb
+	0x3bd44c
+	0x39b2e6
+	0x36d321
+	0x36e1d4
+	0x795254
+	0x79080b
+	0x7ad0ea
+	0x55b118
+	0x56311d
+	0x549518
+	0x5496d9
+	0x533a68
+	0x75be5d49
+	0x7726d5db
+	0x7726d561
+
+2026-01-08 16:02:54 - ERROR: Unexpected error trace:
+Traceback (most recent call last):
+  File "pochiNavi.py", line 154, in <module>
+    wait.until(EC.presence_of_element_located((By.TAG_NAME, "body")))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "selenium\webdriver\support\wait.py", line 129, in until
+  File "selenium\webdriver\support\expected_conditions.py", line 104, in _predicate
+  File "selenium\webdriver\remote\webdriver.py", line 926, in find_element
+  File "selenium\webdriver\remote\webdriver.py", line 458, in execute
+  File "selenium\webdriver\remote\errorhandler.py", line 233, in check_response
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=143.0.7499.170)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x541213
+	0x541254
+	0x32e6dd
+	0x30ca8d
+	0x3a1ffb
+	0x3bd44c
+	0x39b2e6
+	0x36d321
+	0x36e1d4
+	0x795254
+	0x79080b
+	0x7ad0ea
+	0x55b118
+	0x56311d
+	0x549518
+	0x5496d9
+	0x533a68
+	0x75be5d49
+	0x7726d5db
+	0x7726d561
+
+2026-01-08 16:02:54 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2026-01-09 10:04:43 - INFO: --- 起動 ---
+2026-01-09 10:04:43 - INFO: ChromeDriverの確認を開始...
+2026-01-09 10:04:51 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\143.0.7499.192\chromedriver-win32/chromedriver.exe
+2026-01-09 10:04:57 - INFO: ログインに成功しました。
+2026-01-09 10:04:57 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2026-01-09 15:49:27 - INFO: --- 起動 ---
+2026-01-09 15:49:27 - INFO: ChromeDriverの確認を開始...
+2026-01-09 15:49:31 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\143.0.7499.192\chromedriver-win32/chromedriver.exe
+2026-01-09 15:51:06 - INFO: ログインに成功しました。
+2026-01-09 15:51:06 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2026-01-13 15:59:00 - INFO: --- 起動 ---
+2026-01-13 15:59:00 - INFO: ChromeDriverの確認を開始...
+2026-01-13 15:59:07 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\143.0.7499.192\chromedriver-win32/chromedriver.exe
+2026-01-13 15:59:13 - INFO: ログインに成功しました。
+2026-01-13 15:59:13 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2026-01-15 15:53:07 - INFO: --- 起動 ---
+2026-01-15 15:53:07 - INFO: ChromeDriverの確認を開始...
+2026-01-15 15:53:15 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\143.0.7499.192\chromedriver-win32/chromedriver.exe
+2026-01-15 15:53:22 - INFO: ログインに成功しました。
+2026-01-15 15:53:22 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2026-01-16 15:59:12 - INFO: --- 起動 ---
+2026-01-16 15:59:12 - INFO: ChromeDriverの確認を開始...
+2026-01-16 15:59:20 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\143.0.7499.192\chromedriver-win32/chromedriver.exe
+2026-01-16 15:59:27 - INFO: ログインに成功しました。
+2026-01-16 15:59:27 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2026-01-19 15:55:17 - INFO: --- 起動 ---
+2026-01-19 15:55:17 - INFO: ChromeDriverの確認を開始...
+2026-01-19 15:55:31 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\143.0.7499.192\chromedriver-win32/chromedriver.exe
+2026-01-19 15:55:37 - INFO: ログインに成功しました。
+2026-01-19 15:55:37 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2026-01-20 15:38:41 - INFO: --- 起動 ---
+2026-01-20 15:38:41 - INFO: ChromeDriverの確認を開始...
+2026-01-20 15:38:49 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\143.0.7499.192\chromedriver-win32/chromedriver.exe
+2026-01-20 15:38:55 - INFO: ログインに成功しました。
+2026-01-20 15:38:55 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2026-01-20 15:53:39 - INFO: --- 起動 ---
+2026-01-20 15:53:39 - INFO: ChromeDriverの確認を開始...
+2026-01-20 15:53:43 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\143.0.7499.192\chromedriver-win32/chromedriver.exe
+2026-01-20 15:53:52 - INFO: ログインに成功しました。
+2026-01-20 15:53:52 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2026-01-21 16:00:11 - INFO: --- 起動 ---
+2026-01-21 16:00:11 - INFO: ChromeDriverの確認を開始...
+2026-01-21 16:01:05 - INFO: --- 起動 ---
+2026-01-21 16:01:05 - INFO: ChromeDriverの確認を開始...
+2026-01-21 16:01:22 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\143.0.7499.192\chromedriver-win32/chromedriver.exe
+2026-01-21 16:01:24 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\143.0.7499.192\chromedriver.exe
+2026-01-21 16:01:29 - INFO: ログインに成功しました。
+2026-01-21 16:01:29 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2026-01-21 16:01:29 - INFO: ログインに成功しました。
+2026-01-21 16:01:29 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2026-01-22 15:54:59 - INFO: --- 起動 ---
+2026-01-22 15:54:59 - INFO: ChromeDriverの確認を開始...
+2026-01-22 15:55:10 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\143.0.7499.192\chromedriver-win32/chromedriver.exe
+2026-01-22 15:55:18 - INFO: ログインに成功しました。
+2026-01-22 15:55:18 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2026-01-23 15:57:29 - INFO: --- 起動 ---
+2026-01-23 15:57:29 - INFO: ChromeDriverの確認を開始...
+2026-01-23 15:57:48 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\143.0.7499.192\chromedriver-win32/chromedriver.exe
+2026-01-23 15:57:55 - INFO: ログインに成功しました。
+2026-01-23 15:57:55 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2026-01-26 15:53:13 - INFO: --- 起動 ---
+2026-01-26 15:53:13 - INFO: ChromeDriverの確認を開始...
+2026-01-26 15:53:26 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\143.0.7499.192\chromedriver-win32/chromedriver.exe
+2026-01-26 15:53:33 - INFO: ログインに成功しました。
+2026-01-26 15:53:33 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2026-01-27 15:55:43 - INFO: --- 起動 ---
+2026-01-27 15:55:43 - INFO: ChromeDriverの確認を開始...
+2026-01-27 15:55:52 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\143.0.7499.192\chromedriver-win32/chromedriver.exe
+2026-01-27 15:55:58 - INFO: ログインに成功しました。
+2026-01-27 15:55:58 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2026-01-28 15:57:13 - INFO: --- 起動 ---
+2026-01-28 15:57:13 - INFO: ChromeDriverの確認を開始...
+2026-01-28 15:57:21 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\143.0.7499.192\chromedriver-win32/chromedriver.exe
+2026-01-28 15:57:26 - INFO: ログインに成功しました。
+2026-01-28 15:57:26 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2026-01-29 16:01:32 - INFO: --- 起動 ---
+2026-01-29 16:01:32 - INFO: ChromeDriverの確認を開始...
+2026-01-29 16:01:39 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\144.0.7559.109\chromedriver-win32/chromedriver.exe
+2026-01-29 16:01:44 - INFO: ログインに成功しました。
+2026-01-29 16:01:44 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2026-01-30 15:59:47 - INFO: --- 起動 ---
+2026-01-30 15:59:47 - INFO: ChromeDriverの確認を開始...
+2026-01-30 16:00:06 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\144.0.7559.109\chromedriver-win32/chromedriver.exe
+2026-01-30 16:00:12 - INFO: ログインに成功しました。
+2026-01-30 16:00:12 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
+2026-02-06 16:06:31 - INFO: --- 起動 ---
+2026-02-06 16:06:31 - INFO: ChromeDriverの確認を開始...
+2026-02-06 16:06:39 - INFO: ChromeDriverパス: C:\Users\user\.wdm\drivers\chromedriver\win64\144.0.7559.133\chromedriver-win32/chromedriver.exe
+2026-02-06 16:06:45 - INFO: ログインに成功しました。
+2026-02-06 16:06:45 - INFO: ---スクリプトを終了します。ブラウザは開いたまま残ります。---
