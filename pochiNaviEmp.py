@@ -3,44 +3,60 @@ import os
 import sys
 from playwright.sync_api import sync_playwright
 
-def connexion_personnel():
-    # [cite_start]実行環境に合わせたパス解決 [cite: 1]
-    if getattr(sys, 'frozen', False):
-        script_dir = os.path.dirname(sys.executable)
+def executer_le_pointage(page):
+    """
+    ドロップダウンを展開し、入室ボタンをクリックする
+    """
+    print("Ouverture du menu déroulant...")
+    # '養老 卓美' を含むリンクをクリックしてメニューを展開
+    page.click('a.dropdown-toggle:has-text("卓美")')
+    
+    # ボタンが操作可能になるのを待つ
+    target_button = page.locator("#staffIN0")
+    
+    # ボタンが活性化（出勤前）しているか確認 
+    if target_button.is_enabled():
+        print("Bouton d'entrée cliquable. Pointage en cours...")
+        target_button.click()
+        # ページリロードを待機 
+        page.wait_for_load_state("load")
+        print("Pointage terminé avec succès !")
     else:
-        script_dir = os.path.dirname(os.path.abspath(__file__))
+        print("Le bouton est déjà désactivé (Déjà pointé aujourd'hui ?).")
 
+def connexion_personnel():
+    # パス解決と設定読み込み 
+    script_dir = os.path.dirname(sys.executable) if getattr(sys, 'frozen', False) else os.path.dirname(os.path.abspath(__file__))
     config_path = os.path.join(script_dir, 'config.json')
 
-    # [cite_start]設定ファイルの読み込み [cite: 1]
     try:
         with open(config_path, 'r', encoding='utf-8') as f:
             conf = json.load(f)
     except Exception as e:
-        print(f"Erreur: {e}")
+        print(f"Erreur de config: {e}")
         return
 
     with sync_playwright() as p:
+        # ブラウザ起動 
         browser = p.chromium.launch(headless=False)
         page = browser.new_page()
 
-        print("Accès à la page de connexion...")
+        print("Connexion au système...")
         page.goto("https://pochipass.com/kanri001.php")
 
-        # HTML構造に基づいた入力操作
+        # ログイン情報の入力 
         page.fill('input[name="username"]', conf['identifiant'])
         page.fill('input[name="password"]', conf['mot_de_passe'])
-
-        print("Tentative de connexion...")
-        # フォームの送信
         page.click('button[type="submit"]')
 
-        # ログイン後の遷移確認（例としてURLの変化を待つ）
+        # 遷移（kanri011.php）を待つ 
         page.wait_for_load_state("networkidle")
-        
         print("Connecté avec succès !")
 
-        # ブラウザを閉じずに維持
+        # --- 自動打刻処理の呼び出し ---
+        executer_le_pointage(page)
+
+        print("\nToutes les opérations sont terminées.")
         input("Appuyez sur Entrée pour fermer le navigateur...")
         browser.close()
 
