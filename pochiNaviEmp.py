@@ -3,29 +3,30 @@ import os
 import sys
 from playwright.sync_api import sync_playwright
 
-def executer_le_pointage(page):
+def executer_le_pointage(page, mode):
     """
-    ドロップダウンを展開し、入室ボタンをクリックする
+    打刻処理（入室/退室）を汎用的に実行する
+    mode: 'IN' または 'OUT'
     """
-    print("Ouverture du menu déroulant...")
-    # '養老 卓美' を含むリンクをクリックしてメニューを展開
+    # モードに応じたIDとラベルの設定
+    target_id = "#staffIN0" if mode == "IN" else "#staffOUT0"
+    label = "entrée" if mode == "IN" else "sortie"
+
+    print(f"Ouverture du menu déroulant pour {label}...")
     page.click('a.dropdown-toggle:has-text("卓美")')
     
-    # ボタンが操作可能になるのを待つ
-    target_button = page.locator("#staffIN0")
+    target_button = page.locator(target_id)
     
-    # ボタンが活性化（出勤前）しているか確認 
     if target_button.is_enabled():
-        print("Bouton d'entrée cliquable. Pointage en cours...")
+        print(f"Bouton de {label} cliquable. Pointage en cours...")
         target_button.click()
-        # ページリロードを待機 
         page.wait_for_load_state("load")
-        print("Pointage terminé avec succès !")
+        print(f"Pointage de {label} terminé avec succès !")
     else:
-        print("Le bouton est déjà désactivé (Déjà pointé aujourd'hui ?).")
+        print(f"Le bouton de {label} est déjà désactivé.")
 
-def connexion_personnel():
-    # パス解決と設定読み込み 
+def connexion_personnel(mode):
+    # パス解決と設定読み込み
     script_dir = os.path.dirname(sys.executable) if getattr(sys, 'frozen', False) else os.path.dirname(os.path.abspath(__file__))
     config_path = os.path.join(script_dir, 'config.json')
 
@@ -37,28 +38,33 @@ def connexion_personnel():
         return
 
     with sync_playwright() as p:
-        # ブラウザ起動 
         browser = p.chromium.launch(headless=False)
         page = browser.new_page()
 
         print("Connexion au système...")
         page.goto("https://pochipass.com/kanri001.php")
 
-        # ログイン情報の入力 
         page.fill('input[name="username"]', conf['identifiant'])
         page.fill('input[name="password"]', conf['mot_de_passe'])
         page.click('button[type="submit"]')
 
-        # 遷移（kanri011.php）を待つ 
         page.wait_for_load_state("networkidle")
         print("Connecté avec succès !")
 
-        # --- 自動打刻処理の呼び出し ---
-        executer_le_pointage(page)
+        # 指定されたモードで打刻を実行
+        executer_le_pointage(page, mode)
 
         print("\nToutes les opérations sont terminées.")
-        input("Appuyez sur Entrée pour fermer le navigateur...")
+        # 自動で閉じる場合は以下をコメントアウトしてください
+        # input("Appuyez sur Entrée pour fermer le navigateur...")
         browser.close()
 
 if __name__ == "__main__":
-    connexion_personnel()
+    # 引数のチェック（デフォルトは IN としておく）
+    mode_selectionne = "IN"
+    if len(sys.argv) > 1:
+        arg = sys.argv[1].upper()
+        if arg in ["IN", "OUT"]:
+            mode_selectionne = arg
+
+    connexion_personnel(mode_selectionne)
